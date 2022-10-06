@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    max-width: 600px;
+    margin: auto; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.scoreboard{
+    width: 350px;
+    height: 200px;
+    background-color: darkblue;
+    padding: 33px;
+    margin-top: 10px;
+    border:  solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+    
+    
+}
+.units{
+    display: flex;
+}
+#scores{
+    width: 100px;
+    height: 70px;
+    background-color: black;
+    color: red;
+    position: relative;
+    border-radius: 7px;
+    
+    
+}
+button{
+    background-color: darkblue;
+    border: 1px solid white;
+    margin-top: 10px;
+    color: white;
+    border-radius: 3px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
